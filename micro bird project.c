@@ -1,4 +1,5 @@
 #include<stdio.h>
+#include<conio.h>
 int main (void){
 int i,j,k,a;
 a=5;
@@ -19,7 +20,6 @@ for (i=0;i<=a/2;i++){
     for (i=0;i<=2*a+1;i++){
     for (j=0;j<=i-1;j++){
         printf(" ");
-
     }
     for (k=1;k<=4*a-2*i+3;k++){
         printf("*");
@@ -90,13 +90,8 @@ printf("\n");
             if(j==25-2*i){
                     printf("*");
         }
-
     }
     }
-
-
-
-
     printf("\n");
 }
 
